@@ -1,0 +1,18 @@
+pkgbase = linux-manga-downloader
+	pkgdesc = End Of Life, install Mangatux
+	pkgver = 0.7EOL
+	pkgrel = 1
+	url = https://github.com/jorge-barroso/mangatux/tree/master
+	install = LMD.install
+	arch = any
+	license = GPL3
+	depends = libnotify
+	depends = gtkdialog
+	depends = wget
+	depends = links
+	depends = zenity
+	provides = mangatux
+	source = https://github.com/jorge-barroso/mangatux/archive/master.zip
+
+pkgname = linux-manga-downloader
+
